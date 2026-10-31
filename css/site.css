@@ -60,10 +60,10 @@ p { max-width: var(--measure); }
 .hero-grid { display: grid; gap: var(--s-12); align-items: center; }
 .hero-copy { display: grid; gap: var(--s-6); }
 .hero-copy h1 { margin-block: var(--s-2) var(--s-2); }
-.hero-art { position: relative; aspect-ratio: 4 / 3; min-width: 0; }
+.hero-art { position: relative; aspect-ratio: 1 / 1; min-width: 0; }
 .hero-art canvas, .hero-art .hero-static { position: absolute; inset: 0; width: 100%; height: 100%; }
 .js .hero-art .hero-static { display: none; }
-@media (max-width: 767px) { .hero-art { aspect-ratio: 16 / 9; } }
+@media (max-width: 767px) { .hero-art { aspect-ratio: 4 / 3; } }
 @media (min-width: 900px) { .hero { padding-block: var(--s-24) var(--s-16); } .hero-grid { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--s-16); } }
 
 /* Proof strip */
@@ -124,6 +124,6 @@ p { max-width: var(--measure); }
 @media (min-width: 768px) { .foot-grid { grid-template-columns: 1fr 1fr; align-items: end; } .foot-meta { text-align: right; } .foot-meta p { max-width: none; justify-self: end; } }
 
 /* Reveal: visible at rest without JS; with JS, a short rise on entry. */
-.js .reveal { opacity: 0; transform: translateY(12px); transition: opacity var(--dur-reveal) var(--ease-out), transform var(--dur-reveal) var(--ease-out); }
+.js .reveal { opacity: 0; transform: translateY(24px); transition: opacity var(--dur-reveal) var(--ease-out), transform var(--dur-reveal) var(--ease-out); }
 .js .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .js .reveal { opacity: 1; transform: none; transition: none; } }

@@ -11,7 +11,7 @@ Eyebrow: Bodhi Labs · AI and data systems
 
 H1: Structure. Resolve. Prove.
 
-Subhead: We build the data layer and the AI workflows that run on it: de-identified structuring at petabyte scale, identity resolution across every source you have, and the evaluation environments that show the result is right. For teams training frontier models, and for companies putting AI to work for the first time.
+Subhead: We build the data layer AI depends on: structuring at petabyte scale, identity resolution across every source, and the evaluations that prove the result. For frontier labs, and for companies putting AI to work for the first time.
 
 Primary CTA: Talk to the team
 Secondary CTA: See how we work ↓
@@ -33,7 +33,7 @@ Label: 01 · Structure
 
 H2: Unstructured in. Model-ready out.
 
-Body: Clinical notes, scanned forms, radiology archives, contracts. We turn documents nobody could query into datasets a model can train on and a team can trust, with protected health information found and removed by fine-tuned models, not by people reading pages.
+Body: Clinical notes, scanned forms, radiology archives, contracts. We turn documents nobody could query into datasets a model can train on, with protected health information removed by fine-tuned models, not by people reading pages.
 
 Detail bullets:
 - Fine-tuned extraction and de-identification models, trained on your document types
@@ -49,7 +49,7 @@ Label: 02 · Resolve
 
 H2: One record per person, across every system.
 
-Body: Your customers and patients exist in five places under five slightly different names. We resolve them into a single identity graph, without a commercial CDP and without a six-person internal team doing it by hand.
+Body: Your customers and patients exist in five systems under five slightly different names. We resolve them into one identity graph, without a commercial CDP or a team doing it by hand.
 
 Detail bullets:
 - Commerce: Shopify, point-of-sale, Google Analytics, Meta, payment gateways
@@ -65,7 +65,7 @@ Label: 03 · Prove
 
 H2: Evaluation that holds up to scrutiny.
 
-Body: A dataset is only useful if you can show it meets the protocol. A model is only useful if you can show where it's right. We build the evaluation platforms and environments that make both answerable: by you, by your reviewers, or by your regulator.
+Body: A dataset is only useful if you can show it meets the protocol. A model, only if you can show where it's right. We build the evaluation platforms that answer both, for you, your reviewers, or your regulator.
 
 Detail bullets:
 - Dataset evals: inclusion and exclusion criteria, de-identification verification, coverage
@@ -96,7 +96,7 @@ Each stage has an eval. You see precision, recall, and coverage before you sign 
 
 H2: A data lake platform, shaped to you.
 
-Body: Our platform handles ingestion, structuring, identity, and evaluation out of the box. Every deployment is customised to your sources, your schema, and your compliance posture, sometimes lightly, sometimes deeply. You get the platform and the people who built it.
+Body: Ingestion, structuring, identity, and evaluation out of the box, then shaped to your sources, your schema, and your compliance posture. You get the platform and the people who built it.
 
 ---
 
@@ -104,7 +104,7 @@ Body: Our platform handles ingestion, structuring, identity, and evaluation out 
 
 H2: Structured data, and a data asset.
 
-Body: Our largest engagement ran three and a half months and produced 1.5 petabytes of structured, de-identified data. Eighteen months later, that data is still earning its owner licensing revenue. That is the shape of what we deliver: a dataset you own, can query, and can license to research or commercial partners on your terms. Where you need them, we build the AI workflows that put it to work inside your own operations. Data that was a storage cost becomes an asset.
+Body: Our largest engagement ran three and a half months and produced 1.5 petabytes of structured, de-identified data. Eighteen months on, it still earns its owner licensing revenue. That is what we deliver: data you own, can query, and can license, plus the workflows that put it to work.
 
 ---
 
@@ -124,7 +124,7 @@ Frontier AI teams
 Evaluation platforms, RL environments, federated data for training and research.
 
 Companies new to AI
-Your first AI workflows and pipelines, built on your own data, running in production, and that data turned into an asset you can license.
+Your first AI workflows, built on your data and running in production. The data becomes an asset you can license.
 
 ---
 
@@ -134,7 +134,7 @@ Label: Research
 
 H2: Bodhi, towards si.
 
-Body: Bodhi is awakening and clarity. The .si is where we are going: superintelligence, approached from the ground up. Alongside client work we build reinforcement-learning environments for home and office automation, and memory systems and infrastructure for AI agents operating at scale.
+Body: Bodhi is awakening and clarity. The .si is where we are going: superintelligence, from the ground up. Alongside client work we build RL environments for home and office automation, and memory infrastructure for AI agents at scale.
 
 ---
 
@@ -142,7 +142,7 @@ Body: Bodhi is awakening and clarity. The .si is where we are going: superintell
 
 H2: Built by people who've shipped at scale.
 
-Body: Bodhi Labs is led by a serial founder who left IIT Kharagpur to build companies, and who previously built and scaled a technology company. The team has delivered data systems to organisations in India and the United States, handling archives up to 1.5 petabytes.
+Body: Led by a serial founder who left IIT Kharagpur to build companies. The team has delivered data systems to organisations in India and the US, handling archives up to 1.5 petabytes.
 
 Variant with company name (de-anonymizes):
 ...who previously built Intugine Technologies...
