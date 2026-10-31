@@ -2,11 +2,13 @@
 
 Static landing page for Bodhi Labs. No build framework; the repo root is the deploy root.
 
-## Deploy (Hostinger)
+## Deploy (GitHub Pages)
 
-Upload everything except `content/`, `tools/`, `brand/reference/` and the markdown files to `public_html/`. The `.htaccess` sets compression, cache headers, and hides working files if they are uploaded anyway.
+The site is served by GitHub Pages from the `main` branch, root directory. Every push to `main` redeploys within about a minute. `CNAME` holds the custom domain; `.nojekyll` tells Pages to serve files as they are.
 
-Analytics is Plausible, using the site-specific snippet from the Plausible dashboard; custom events `CTA`, `Book a call`, `Email` and `Booked` are sent from `js/site.js`.
+DNS at the registrar: four `A` records on the bare domain to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`, and a `CNAME` for `www` to `wewake2.github.io`. In the repo, Settings → Pages: source "Deploy from a branch", `main`, `/ (root)`, custom domain `bodhilabs.si`, "Enforce HTTPS" on once the certificate is issued.
+
+`.htaccess` is kept for a possible move to Apache hosting; GitHub ignores it.
 
 ## Layout
 
