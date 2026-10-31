@@ -40,11 +40,6 @@
       s.async = true;
       s.onerror = function () { cal.removeChild(box); cal.removeAttribute('data-loaded'); };
       document.head.appendChild(s);
-      // hide the fallback once the iframe exists; give up quietly after 6 s
-      var tries = 0, poll = setInterval(function () {
-        if (box.querySelector('iframe')) { cal.classList.add('is-live'); clearInterval(poll); }
-        else if (++tries > 30) clearInterval(poll);
-      }, 200);
     };
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(function (en, obs) {
@@ -53,8 +48,12 @@
     } else {
       loadCalendly();
     }
+    // Calendly posts messages as it loads and when a booking completes. The fallback button is
+    // hidden only once the calendar has actually rendered.
     window.addEventListener('message', function (e) {
-      if (e.origin === 'https://calendly.com' && e.data && e.data.event === 'calendly.event_scheduled') track('Booked', 'calendly');
+      if (e.origin !== 'https://calendly.com' || !e.data || typeof e.data.event !== 'string') return;
+      if (e.data.event === 'calendly.event_type_viewed' || e.data.event === 'calendly.page_height') cal.classList.add('is-live');
+      if (e.data.event === 'calendly.event_scheduled') track('Booked', 'calendly');
     });
   }
 })();
