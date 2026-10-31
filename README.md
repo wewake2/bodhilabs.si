@@ -6,7 +6,7 @@ Static landing page for Bodhi Labs. No build framework; the repo root is the dep
 
 Upload everything except `content/`, `tools/`, `brand/reference/` and the markdown files to `public_html/`. The `.htaccess` sets compression, cache headers, and hides working files if they are uploaded anyway.
 
-Before the first deploy, add `bodhilabs.si` at plausible.io so the analytics script has somewhere to report.
+Analytics is Plausible, using the site-specific snippet from the Plausible dashboard; custom events `CTA`, `Book a call`, `Email` and `Booked` are sent from `js/site.js`.
 
 ## Layout
 
