@@ -70,7 +70,7 @@ Scale ratio 1.25 from 17px. Numbers (500M+, 1.5 PB, 3.5 mo) are always mono.
 - Container 72rem, gutter `max(16px, safe-area)`, 4px spacing base.
 - Nothing is rounded except buttons and chips (4px).
 - Hairlines (`--line`) separate sections. No cards with shadows.
-- Section labels are mono: `01 — Structure`, `02 — Resolve`, `03 — Prove`. Numbered because the triad is an order: structure first, resolve on top of it, prove last.
+- Section labels are mono: `01 · Structure`, `02 · Resolve`, `03 · Prove`. Numbered because the triad is an order: structure first, resolve on top of it, prove last.
 
 ## Motion
 
@@ -82,3 +82,7 @@ Scale ratio 1.25 from 17px. Numbers (500M+, 1.5 PB, 3.5 mo) are always mono.
 ## Voice
 
 Plain-spoken, "we", confident, sparse. Written for a technical buyer. Every claim ties to a number or a named method. No: cutting-edge, leverage, seamless, unlock, revolutionize, next-gen.
+
+## Writing rule
+
+No em-dashes or double dashes anywhere in page content, labels, or metadata. Use a full stop, comma, colon, parentheses, or a middle dot in labels.
