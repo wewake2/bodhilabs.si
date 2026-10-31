@@ -104,7 +104,7 @@ Body: Our platform handles ingestion, structuring, identity, and evaluation out 
 
 H2: Structured data — and a data asset.
 
-Body: Our largest engagement ran three months and produced 1.5 petabytes of structured, de-identified data. Eighteen months later, that data is still earning its owner revenue. That is the shape of what we deliver: a dataset you own, can query, and can license to research or commercial partners on your terms — and, where you need them, the AI workflows that put it to work inside your own operations. Data that was a storage cost becomes an asset.
+Body: Our largest engagement ran three and a half months and produced 1.5 petabytes of structured, de-identified data. Eighteen months later, that data is still earning its owner licensing revenue. That is the shape of what we deliver: a dataset you own, can query, and can license to research or commercial partners on your terms — and, where you need them, the AI workflows that put it to work inside your own operations. Data that was a storage cost becomes an asset.
 
 ---
 
@@ -128,7 +128,7 @@ Your first AI workflows and pipelines, built on your own data, running in produc
 
 ---
 
-## 9b. Where we're heading (optional section — founder to approve)
+## 9b. Where we're heading (approved)
 
 Label: Research
 
@@ -155,23 +155,21 @@ H2: Tell us what you're working with.
 
 Body: A short call is enough to tell you whether and how we'd approach it.
 
-CTA: Book a call  (→ Calendly URL, to be supplied)
+CTA: Book a call  (→ https://calendly.com/bodhilabs/intro — placeholder, founder will replace)
 Fallback line: or write to dev@bodhilabs.si
 
 ---
 
 ## 12. Footer
 
-Bodhi Labs · Bengaluru · bodhilabs.si
+Bodhi Labs · India · bodhilabs.si
 Structure. Resolve. Prove.
 Bodhi — awakening, clarity. si — superintelligence.
 © 2026 Bodhi Labs
 
 ---
 
-## Open confirmations carried into Phase 2
-- Proof strip says 3.5 months (your first answer); section 8 says three months (your second). Which?
-- "Still earning its owner revenue" — is the client earning from licensing, or is this Bodhi's recurring revenue? Phrasing depends on it.
-- Section 9b (Research) — include on the landing page, or hold for a later page?
-- Bengaluru in footer — correct?
-- "Probabilistic and deterministic matching", "precision, recall, coverage", "clinical next-step prediction" (evaluating a client's model), "without a commercial CDP" — kept as written unless you object.
+## Decisions log
+- 3.5 months (founder, 2026-10-31). Revenue in §8 is the client's licensing revenue.
+- §9b included. Footer location: India (no city). Analytics: Plausible. dev@bodhilabs.si is live.
+- Kept as written, founder did not object: "probabilistic and deterministic matching", "precision, recall, coverage", "clinical next-step prediction" (a client's model), "without a commercial CDP".

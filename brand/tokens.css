@@ -24,10 +24,30 @@
   --deep-accent:#ffb852;  /* Cream Yellow                9.2:1 on --deep AAA */
   --deep-line:  #324e2a;  /* Blackish Olive — hairlines on --deep           */
 
-  /* Type — pending Phase 2 decision (serif vs grotesk display) */
-  --font-display: "Newsreader", Georgia, serif;
-  --font-body:    "Inter", system-ui, sans-serif;
-  --font-mono:    "Geist Mono", ui-monospace, Menlo, monospace;
+  /* Type — Newsreader (display, opsz 72) · Inter (body) · Geist Mono (numerals, labels).
+     All OFL; self-hosted, no third-party font request. */
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono:    "Geist Mono", "JetBrains Mono", ui-monospace, Menlo, monospace;
+
+  /* Type scale — 1.25 ratio from 17px body; display steps are fluid */
+  --text-xs:   0.75rem;    /* 12px — mono labels, uppercase, +0.08em tracking */
+  --text-sm:   0.875rem;   /* 14px — captions, footer */
+  --text-base: 1.0625rem;  /* 17px — body, line-height 1.55, max 65ch */
+  --text-lg:   1.3125rem;  /* 21px — leads, card titles */
+  --text-xl:   clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem);    /* section H2 */
+  --text-2xl:  clamp(2.5rem, 1.6rem + 3.2vw, 4.25rem);    /* hero H1 */
+  --leading-tight: 1.05;
+  --leading-body:  1.55;
+  --tracking-label: 0.08em;
+  --tracking-display: -0.01em;
+
+  /* Space — 4px base */
+  --s-1: 0.25rem; --s-2: 0.5rem; --s-3: 0.75rem; --s-4: 1rem; --s-6: 1.5rem;
+  --s-8: 2rem; --s-12: 3rem; --s-16: 4rem; --s-24: 6rem; --s-32: 8rem;
+  --measure: 65ch;
+  --container: 72rem;
+  --radius: 4px;      /* buttons, chips. Nothing else is rounded. */
 
   /* Motion */
   --dur-micro:  180ms;   /* hover, focus, toggles */
