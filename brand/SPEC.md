@@ -45,10 +45,11 @@ From Sanzo Wada, *A Dictionary of Color Combinations*, via the dblodorn digitisa
 | `--accent` | `#a93400` | Burnt Sienna | 6.0:1 on bg, AA |
 | `--accent-2` | `#b85e00` | Raw Sienna | 4.1:1 — fills, ≥18px text, UI only |
 | `--line` | `#c0b490` | Ecru | hairlines only |
-| `--deep` | `#172713` | Deep Slate Olive | band background |
-| `--deep-text` | `#ebd999` | Ivory Buff | 11.2:1 on deep, AAA |
-| `--deep-ink-2` | `#9cb29e` | Warm Gray | 5.9:1 on deep, AA |
-| `--deep-accent` | `#ffb852` | Cream Yellow | 9.2:1 on deep, AAA |
+| `--deep` | `#150d02` | Vandyke Brown · 62% black | band background |
+| `--deep-text` | `#ebd999` | Ivory Buff | 13.7:1 on deep, AAA |
+| `--deep-ink-2` | `#c0b490` | Ecru | 9.3:1 on deep, AAA |
+| `--deep-accent` | `#ffb852` | Cream Yellow | 11.2:1 on deep, AAA |
+| `--deep-line` | `#4a3a1a` | — | hairlines on deep only |
 
 The site is **light by default**. Deep is a band (the Prove section, the footer), not a theme toggle. The accent appears in: `.si`, the mark's point, the periods in the triad headline, links, the primary button. Nowhere else.
 

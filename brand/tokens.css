@@ -7,7 +7,7 @@
   /* Surfaces */
   --bg:         #f9f4e2;  /* Ivory Buff ·72% white      oklch(0.97 0.024 94)  */
   --bg-2:       #f4eac7;  /* Ivory Buff ·45% white      oklch(0.94 0.047 94)  */
-  --deep:       #172713;  /* Deep Slate Olive           oklch(0.25 0.042 139) */
+  --deep:       #150d02;  /* Vandyke Brown ·62% black   oklch(0.17 0.028 80)  */
 
   /* Ink */
   --ink:        #362304;  /* Vandyke Brown              13.6:1 on --bg  AAA  */
@@ -19,10 +19,10 @@
   --accent-2:   #b85e00;  /* Raw Sienna — fills, ≥18px text, UI only (4.1:1) */
 
   /* On --deep */
-  --deep-text:  #ebd999;  /* Ivory Buff                 11.2:1 on --deep AAA */
-  --deep-ink-2: #9cb29e;  /* Warm Gray                   5.9:1 on --deep AA  */
-  --deep-accent:#ffb852;  /* Cream Yellow                9.2:1 on --deep AAA */
-  --deep-line:  #324e2a;  /* Blackish Olive — hairlines on --deep           */
+  --deep-text:  #ebd999;  /* Ivory Buff                 13.7:1 on --deep AAA */
+  --deep-ink-2: #c0b490;  /* Ecru                        9.3:1 on --deep AAA */
+  --deep-accent:#ffb852;  /* Cream Yellow               11.2:1 on --deep AAA */
+  --deep-line:  #4a3a1a;  /* warm hairline on --deep (1.75:1, decorative)  */
 
   /* Type — Newsreader (display, opsz 72) · Inter (body) · Geist Mono (numerals, labels).
      All OFL; self-hosted, no third-party font request. */
@@ -61,7 +61,7 @@
    The site is light by default: dawn, not midnight. */
 .band-deep {
   --bg: var(--deep);
-  --bg-2: #1f3319;
+  --bg-2: #1f1402;
   --ink: var(--deep-text);
   --ink-2: var(--deep-ink-2);
   --accent: var(--deep-accent);
