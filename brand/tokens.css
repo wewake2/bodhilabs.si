@@ -1,0 +1,57 @@
+/* Bodhi Labs — design tokens
+   Palette: "Dawn" — Sanzo Wada, A Dictionary of Color Combinations
+   (values from the dblodorn digitization, CMYK→sRGB; backgrounds are
+   Ivory Buff tinted toward white). Contrast ratios are WCAG 2.x. */
+
+:root {
+  /* Surfaces */
+  --bg:         #f9f4e2;  /* Ivory Buff ·72% white      oklch(0.97 0.024 94)  */
+  --bg-2:       #f4eac7;  /* Ivory Buff ·45% white      oklch(0.94 0.047 94)  */
+  --deep:       #172713;  /* Deep Slate Olive           oklch(0.25 0.042 139) */
+
+  /* Ink */
+  --ink:        #362304;  /* Vandyke Brown              13.6:1 on --bg  AAA  */
+  --ink-2:      #706934;  /* Light Brownish Olive        5.1:1 on --bg  AA   */
+  --line:       #c0b490;  /* Ecru — hairlines only, no text                 */
+
+  /* Accent */
+  --accent:     #a93400;  /* Burnt Sienna                6.0:1 on --bg  AA   */
+  --accent-2:   #b85e00;  /* Raw Sienna — fills, ≥18px text, UI only (4.1:1) */
+
+  /* On --deep */
+  --deep-text:  #ebd999;  /* Ivory Buff                 11.2:1 on --deep AAA */
+  --deep-ink-2: #9cb29e;  /* Warm Gray                   5.9:1 on --deep AA  */
+  --deep-accent:#ffb852;  /* Cream Yellow                9.2:1 on --deep AAA */
+  --deep-line:  #324e2a;  /* Blackish Olive — hairlines on --deep           */
+
+  /* Type — pending Phase 2 decision (serif vs grotesk display) */
+  --font-display: "Newsreader", Georgia, serif;
+  --font-body:    "Inter", system-ui, sans-serif;
+  --font-mono:    "Geist Mono", ui-monospace, Menlo, monospace;
+
+  /* Motion */
+  --dur-micro:  180ms;   /* hover, focus, toggles */
+  --dur-reveal: 700ms;   /* section entrance */
+  --ease-out:   cubic-bezier(0.22, 1, 0.36, 1);
+
+  color-scheme: light;
+}
+
+/* Dark sections are a deliberate band (Prove, footer), not a theme toggle.
+   The site is light by default: dawn, not midnight. */
+.band-deep {
+  --bg: var(--deep);
+  --bg-2: #1f3319;
+  --ink: var(--deep-text);
+  --ink-2: var(--deep-ink-2);
+  --accent: var(--deep-accent);
+  --accent-2: var(--deep-accent);
+  --line: var(--deep-line);
+  color-scheme: dark;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-micro: 0ms; --dur-reveal: 0ms; }
+}

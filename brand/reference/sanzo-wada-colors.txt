@@ -1,0 +1,161 @@
+159 colors
+name                         hex          L     C     h      Y combos
+Black                        #000000   0.00 0.000     0  0.000 23
+Red                          #a10045   0.45 0.182     7  0.080 2
+Hydrangea Red                #9e194d   0.46 0.169     4  0.085 1
+Ochre Red                    #a7374b   0.50 0.147    14  0.115 2
+Eugenia Red | B              #e62e73   0.61 0.220     5  0.200 8
+Eugenia Red | A              #ed3d66   0.63 0.211    13  0.223 1
+Coral Red                    #ff7399   0.73 0.173     5  0.358 4
+Fresh Color                  #ff788c   0.74 0.165    13  0.366 1
+Fawn                         #d1b0b2   0.79 0.038    14  0.478 3
+Madder Brown                 #651300   0.33 0.118    34  0.032 7
+Hay's Russet                 #681916   0.35 0.113    27  0.037 11
+Vandyke Red                  #740909   0.36 0.138    28  0.039 5
+Pale Burnt Lake              #730f1f   0.36 0.132    20  0.041 8
+Brown                        #6c2b11   0.38 0.100    41  0.050 4
+Carmine Red                  #a10b2b   0.45 0.176    19  0.080 12
+Brick Red                    #a32100   0.47 0.170    33  0.089 5
+Pompeian Red                 #a90636   0.47 0.185    16  0.088 6
+Burnt Sienna                 #a93400   0.50 0.161    38  0.109 9
+Sudan Brown                  #9b5348   0.53 0.098    30  0.136 3
+Etruscan Red                 #c9303e   0.55 0.188    21  0.149 7
+Carmine                      #d60036   0.55 0.223    20  0.146 8
+Scarlet                      #d50c42   0.56 0.219    17  0.148 3
+Vinaceous Tawny              #c74300   0.56 0.178    40  0.162 3
+Red Orange                   #e81900   0.59 0.234    30  0.179 5
+Spectrum Red                 #f20000   0.60 0.248    29  0.189 4
+English Red                  #de4500   0.60 0.199    38  0.198 5
+Jasper Red                   #fa2b00   0.63 0.241    32  0.221 4
+Peach Red                    #ff3319   0.65 0.240    31  0.237 8
+Orange                       #ff5200   0.67 0.220    38  0.273 7
+Grenadine Pink               #ff616b   0.70 0.192    20  0.309 10
+Apricot Orange               #ff7340   0.72 0.183    40  0.339 4
+Vinaceous Cinnamon           #f59994   0.78 0.111    23  0.443 7
+Seashell Pink                #ffcfc4   0.89 0.057    33  0.699 9
+Mars Brown Tobacco           #522000   0.31 0.085    48  0.028 1
+Pale Raw Umber               #5e4017   0.40 0.070    72  0.061 5
+Orange Rufous                #c05200   0.57 0.159    47  0.172 3
+Raw Sienna                   #b85e00   0.58 0.143    55  0.182 19
+Cinnamon Rufous              #c2612c   0.60 0.140    46  0.202 7
+Maple                        #c2975a   0.70 0.094    75  0.343 1
+Ochraceous Salmon            #d99e73   0.75 0.091    57  0.404 10
+Yellow Orange                #ff8c00   0.75 0.179    58  0.400 14
+Golden Yellow                #fa9442   0.76 0.155    56  0.419 10
+Pinkish Cinnamon             #f2ad78   0.80 0.106    58  0.501 9
+Orange Yellow                #ffab00   0.80 0.170    74  0.504 8
+Cream Yellow                 #ffb852   0.83 0.142    73  0.562 14
+Cinnamon Buff                #ffbf6e   0.85 0.123    71  0.596 9
+Light Pinkish Cinnamon       #ffbf99   0.85 0.090    52  0.608 1
+Vandyke Brown                #362304   0.27 0.053    75  0.020 6
+Sepia                        #503d00   0.37 0.076    89  0.050 2
+Light Brownish Olive         #706934   0.51 0.074   102  0.138 2
+Orange Citrine               #8c6510   0.53 0.105    80  0.149 2
+Khaki                        #b68400   0.65 0.133    82  0.264 5
+Sulphine Yellow              #baa600   0.72 0.150   101  0.377 5
+Isabella Color               #c3a55c   0.73 0.099    88  0.393 4
+Ecru                         #c0b490   0.77 0.051    92  0.459 8
+Olive Ocher                  #d1bd19   0.79 0.161   101  0.500 7
+Yellow Ocher                 #e0b81f   0.80 0.157    92  0.502 8
+Ivory Buff                   #ebd999   0.89 0.084    94  0.696 16
+Apricot Yellow               #ffe600   0.92 0.192   101  0.779 10
+Naples Yellow                #faed8f   0.94 0.116   101  0.829 6
+Pale Lemon Yellow            #fff59e   0.96 0.108   103  0.890 19
+White                        #ffffff   1.00 0.000    90  1.000 1
+Lincoln Green                #405416   0.42 0.090   126  0.075 6
+Deep Grayish Olive           #505423   0.43 0.070   113  0.082 2
+Olive Green                  #58771e   0.53 0.120   127  0.154 4
+Olive                        #718600   0.58 0.138   120  0.206 7
+Light Grayish Olive          #76844e   0.59 0.078   121  0.209 2
+Dark Citrine                 #7e8743   0.60 0.093   115  0.222 4
+Krongbergs Green             #759243   0.62 0.112   126  0.247 1
+Buffy Citrine                #888d2a   0.62 0.120   112  0.245 3
+Oil Green                    #6ea900   0.67 0.180   130  0.317 3
+Citrine                      #a3ad00   0.72 0.161   114  0.377 5
+Olive Yellow                 #99b233   0.72 0.151   120  0.389 4
+Rainette Green               #85b857   0.73 0.139   132  0.400 5
+Pyrite Yellow                #c4bf33   0.78 0.153   107  0.492 4
+Citron Yellow                #a6d40d   0.81 0.198   124  0.552 8
+Olive Buff                   #bcd382   0.83 0.108   122  0.589 5
+Light Green Yellow           #bdf226   0.89 0.215   125  0.745 5
+Yellow Green                 #a6ff47   0.91 0.226   132  0.801 5
+Sulpher Yellow               #f5f5b8   0.96 0.078   108  0.882 18
+Lemon Yellow                 #f2ff26   0.96 0.208   114  0.905 15
+Yellow                       #ffff00   0.97 0.211   110  0.928 8
+Deep Slate Olive             #172713   0.25 0.042   139  0.017 10
+Blackish Olive               #324e2a   0.39 0.067   139  0.063 3
+Dusky Green                  #00592e   0.41 0.103   154  0.073 8
+Diamine Green                #1b8e13   0.56 0.181   142  0.196 6
+Cossack Green                #328e13   0.57 0.174   140  0.201 9
+Andover Green                #5c8a73   0.59 0.062   162  0.217 2
+Pistachio Green              #56aa69   0.67 0.126   149  0.317 2
+Chromium Green               #66ab56   0.68 0.138   140  0.326 4
+Light Porcelain Green        #23c17c   0.72 0.160   158  0.400 3
+Dull Viridian Green          #19cc33   0.74 0.232   144  0.436 4
+Green                        #40c945   0.74 0.209   144  0.433 3
+Warm Gray                    #9cb29e   0.74 0.037   148  0.414 8
+Peacock Blue                 #00cf91   0.76 0.164   163  0.467 2
+Benzol Green                 #00d973   0.78 0.201   153  0.509 11
+Dark Greenish Glaucous       #b2d9a3   0.84 0.084   137  0.617 2
+Sea Green                    #33ff7d   0.88 0.231   150  0.737 11
+Glaucous Green               #b2e8c2   0.88 0.076   154  0.711 6
+Night Green                  #7aff00   0.89 0.267   137  0.757 4
+Venice Green                 #6bffb2   0.90 0.167   158  0.779 6
+Cobalt Green                 #94ff94   0.91 0.174   144  0.800 12
+Turquoise Green              #b5ffc2   0.94 0.110   149  0.852 16
+Deep Slate Green             #0f261f   0.25 0.032   172  0.016 6
+Artemesia Green              #65a98f   0.68 0.080   168  0.331 2
+Green Blue                   #2dbc94   0.71 0.132   169  0.387 9
+Cerulian Blue                #29bdad   0.72 0.120   184  0.399 8
+Mineral Gray                 #9fc2b2   0.78 0.044   166  0.492 2
+Neutral Gray                 #b5d1cc   0.84 0.031   184  0.598 12
+Light Glaucous Blue          #a6e6db   0.88 0.066   183  0.698 10
+Calamine BLue                #80ffcc   0.91 0.135   165  0.805 10
+Pale King's Blue             #abf5ed   0.92 0.074   188  0.801 9
+Nile Blue                    #bfffe6   0.95 0.072   169  0.883 7
+Dark Medici Blue             #417777   0.53 0.058   196  0.156 4
+Antwarp Blue                 #008aa1   0.58 0.103   215  0.208 13
+Slate Color                  #1b3644   0.32 0.041   233  0.033 13
+Deep Violet / Plumbeous      #5c7287   0.54 0.042   247  0.161 3
+Salvia Blue                  #96bfe6   0.79 0.071   247  0.495 13
+Deep Indigo                  #000831   0.16 0.083   263  0.004 7
+Dull Violet Black            #06-84f   0.18 0.141   269  0.004 8
+Dark Tyrian Blue             #0d2b52   0.29 0.079   256  0.024 7
+Violet Blue                  #202d85   0.35 0.147   270  0.039 11
+Red Violet                   #3400a3   0.35 0.212   280  0.034 8
+Vandar Poel's Blue           #003e83   0.37 0.129   256  0.051 7
+Deep Lyons Blue              #0024cc   0.41 0.248   264  0.056 10
+Violet                       #2619d1   0.41 0.253   270  0.057 12
+Helvetia Blue                #0057ba   0.48 0.172   257  0.104 8
+Blue Violet                  #4733ff   0.51 0.278   274  0.109 5
+Dark Soft Violet             #4d52de   0.52 0.209   275  0.129 3
+Dull Blue Violet             #6e66d4   0.57 0.164   283  0.176 2
+Blue                         #0d75ff   0.59 0.223   259  0.200 12
+Olympic Blue                 #4f8fe6   0.65 0.147   257  0.270 7
+Grayish Lavender - A         #b8b8ff   0.81 0.100   284  0.517 7
+Dusky Madder Violet          #2d0060   0.26 0.143   295  0.014 6
+Cotinga Purple               #340059   0.26 0.138   304  0.015 7
+Violet Red                   #3d0079   0.31 0.169   296  0.024 1
+Aconite Violet               #9c52f2   0.61 0.229   301  0.195 11
+Light Mauve                  #9161f2   0.62 0.208   295  0.210 7
+Lilac                        #b875eb   0.68 0.178   309  0.289 4
+Grayish Lavender - B         #bfabcc   0.77 0.051   312  0.446 8
+Violet Carmine               #531745   0.32 0.106   338  0.029 1
+Dark Slate Purple            #53225c   0.35 0.110   321  0.038 2
+Taupe Brown                  #6b2e63   0.41 0.112   333  0.060 7
+Veronia Purple               #7e3075   0.45 0.139   332  0.078 4
+Purple Drab                  #754260   0.45 0.081   345  0.085 1
+Rosolanc Purple              #b219ab   0.54 0.231   330  0.131 6
+Indian Lake                  #cc1a97   0.57 0.231   345  0.158 2
+Eupatorium Purple            #bf36e0   0.61 0.253   319  0.191 3
+Spinel Red                   #ff4dc9   0.71 0.244   343  0.308 7
+Laelia Pink                  #cc85d1   0.72 0.132   325  0.342 4
+Cameo Pink                   #e6adcf   0.81 0.080   343  0.512 6
+Corinthian Pink              #ffa6d9   0.83 0.122   345  0.535 12
+Hermosa Pink                 #ffb2f0   0.86 0.119   334  0.594 3
+Pansy Purple                 #6f0043   0.36 0.147   353  0.038 2
+Vistoris Lake                #5c2c45   0.37 0.078   349  0.045 6
+Pomegranite Purple           #b90078   0.52 0.215   351  0.117 2
+Old Rose                     #d94d99   0.63 0.190   350  0.224 4
+Light Brown Drab             #b08699   0.67 0.057   350  0.286 10
+Eosine Pink                  #ff5ec4   0.72 0.221   345  0.333 14

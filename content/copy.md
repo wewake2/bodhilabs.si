@@ -1,7 +1,7 @@
 # Bodhi Labs — Landing page copy (Phase 1 draft)
 
 Positioning (internal, not on page):
-Bodhi Labs builds the data layer that AI systems depend on: structuring unstructured and sensitive data, resolving identities across fragmented records, and building the evaluation and federated environments that prove the results — for research labs, commerce companies, and frontier AI teams in India and the US.
+Bodhi Labs builds the data layer that AI systems depend on, and the AI workflows that run on it: structuring unstructured and sensitive data, resolving identities across fragmented records, building the evaluation and federated environments that prove the results, and turning the outcome into an asset the owner can use and license — for research labs, commerce companies, frontier AI teams, and organisations putting AI to work for the first time, in India and the US.
 
 ---
 
@@ -11,7 +11,7 @@ Eyebrow: Bodhi Labs · AI and data systems
 
 H1: Structure. Resolve. Prove.
 
-Subhead: We build the data systems underneath serious AI — from de-identified structuring at petabyte scale to identity resolution across every source you have, and the evaluation environments that show the result is right.
+Subhead: We build the data layer and the AI workflows that run on it — from de-identified structuring at petabyte scale to identity resolution across every source you have, and the evaluation environments that show the result is right. For teams training frontier models, and for companies putting AI to work for the first time.
 
 Primary CTA: Talk to the team
 Secondary CTA: See how we work ↓
@@ -104,15 +104,15 @@ Body: Our platform handles ingestion, structuring, identity, and evaluation out 
 
 H2: Structured data — and a data asset.
 
-Body: Our largest engagement ran three months and produced 1.5 petabytes of structured, de-identified data. Eighteen months later, that data is still earning its owner revenue. That is the shape of what we deliver: a dataset you own, can query, and can license to research or commercial partners on your terms — data that was a storage cost becomes an asset.
+Body: Our largest engagement ran three months and produced 1.5 petabytes of structured, de-identified data. Eighteen months later, that data is still earning its owner revenue. That is the shape of what we deliver: a dataset you own, can query, and can license to research or commercial partners on your terms — and, where you need them, the AI workflows that put it to work inside your own operations. Data that was a storage cost becomes an asset.
 
 ---
 
 ## 9. Who we work with
 
-H2: Labs, commerce, and the teams building the models.
+H2: Labs, commerce, frontier teams — and companies just starting.
 
-Three cards:
+Four cards:
 
 AI and research labs
 Structured, de-identified datasets from clinical and document archives.
@@ -122,6 +122,9 @@ Identity resolution across storefront, store, ads, and payments.
 
 Frontier AI teams
 Evaluation platforms, RL environments, federated data for training and research.
+
+Companies new to AI
+Your first AI workflows and pipelines, built on your own data, running in production — and that data turned into an asset you can license.
 
 ---
 
