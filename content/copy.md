@@ -155,7 +155,7 @@ H2: Tell us what you're working with.
 
 Body: A short call is enough to tell you whether and how we'd approach it.
 
-CTA: Book a call  (https://calendly.com/bodhilabs/intro, placeholder, founder will replace)
+CTA: Book a call  (https://calendly.com/dev-bodhilabs/30min)
 Fallback line: or write to dev@bodhilabs.si
 
 ---

@@ -6,7 +6,7 @@ Static landing page for Bodhi Labs. No build framework; the repo root is the dep
 
 Upload everything except `content/`, `tools/`, `brand/reference/` and the markdown files to `public_html/`. The `.htaccess` sets compression, cache headers, and hides working files if they are uploaded anyway.
 
-Before the first deploy, replace the Calendly placeholder in `index.html` (`https://calendly.com/bodhilabs/intro`) and add `bodhilabs.si` at plausible.io so the analytics script has somewhere to report.
+Before the first deploy, add `bodhilabs.si` at plausible.io so the analytics script has somewhere to report.
 
 ## Layout
 
