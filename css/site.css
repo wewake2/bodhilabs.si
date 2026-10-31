@@ -110,6 +110,12 @@ p { max-width: var(--measure); }
 .contact .wrap { display: grid; gap: var(--s-6); }
 .h-contact { font-size: var(--text-2xl); max-width: 14em; }
 .or { font-size: var(--text-sm); color: var(--ink-2); }
+.calendly { position: relative; min-width: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.calendly-inline-widget { height: 700px; max-width: 100%; }
+.calendly-fallback { padding-block: var(--s-8); }
+.calendly.is-live .calendly-fallback { display: none; }
+.calendly.is-live { border: 0; }
+@media (max-width: 640px) { .calendly-inline-widget { height: 760px; } }
 .email { font-family: var(--font-mono); font-weight: 500; color: var(--accent); border-bottom: 1px solid transparent; transition: border-color var(--dur-micro) var(--ease-out); }
 .email:hover { border-bottom-color: currentColor; }
 

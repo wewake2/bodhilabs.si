@@ -155,7 +155,9 @@ H2: Tell us what you're working with.
 
 Body: A short call is enough to tell you whether and how we'd approach it.
 
-CTA: Book a call  (https://calendly.com/dev-bodhilabs/30min)
+Body line 2: Pick a time below.
+
+Embedded Calendly (https://calendly.com/dev-bodhilabs/30min), loaded when the section scrolls into view, brand colours passed in. Fallback button: Book a call.
 Fallback line: or write to dev@bodhilabs.si
 
 ---
