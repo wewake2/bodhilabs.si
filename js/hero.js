@@ -67,6 +67,7 @@
   }
 
   function step(now) {
+    if (!pts.length) return;            // canvas hidden (phones) or not laid out yet
     ctx.clearRect(0, 0, W, H);
     var settled = 1, k, q;
 
@@ -93,7 +94,7 @@
         ctx.strokeStyle = grad; ctx.globalAlpha = 1; ctx.lineWidth = 2;
         ctx.beginPath(); ctx.moveTo(Math.max(rows[k].x0, hx - 70), rows[k].y + 0.5); ctx.lineTo(hx, rows[k].y + 0.5); ctx.stroke();
         ctx.fillStyle = ACC; ctx.globalAlpha = 0.9;
-        ctx.beginPath(); ctx.arc(hx, rows[k].y + 0.5, 2.2, 0, TAU); ctx.fill();
+        ctx.beginPath(); ctx.arc(hx, rows[k].y + 0.5, R, 0, TAU); ctx.fill();
       }
     }
 
@@ -151,6 +152,7 @@
 
   function init() {
     layout();
+    if (!W || !H) { stop(); return; }   // display:none on phones; nothing to draw
     t0 = performance.now();
     lastKick = lastSplit = t0 + SETTLE;
     if (reduce) { t0 -= SETTLE * 4; step(performance.now()); return; }
@@ -160,7 +162,13 @@
   var rt;
   window.addEventListener('resize', function () {
     clearTimeout(rt);
-    rt = setTimeout(function () { layout(); t0 = performance.now() - SETTLE * 4; step(performance.now()); }, 120);
+    rt = setTimeout(function () {
+      var hadSize = W && H;
+      layout();
+      if (!W || !H) { stop(); pts = []; return; }
+      if (!hadSize) { init(); return; }  // rotated or widened into view: arrive again
+      t0 = performance.now() - SETTLE * 4; arrived = false; step(performance.now());
+    }, 120);
   });
   document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
   if ('IntersectionObserver' in window) {

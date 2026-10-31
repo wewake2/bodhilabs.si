@@ -63,7 +63,7 @@ p { max-width: var(--measure); }
 .hero-art { position: relative; aspect-ratio: 1 / 1; min-width: 0; }
 .hero-art canvas, .hero-art .hero-static { position: absolute; inset: 0; width: 100%; height: 100%; }
 .js .hero-art .hero-static { display: none; }
-@media (max-width: 767px) { .hero-art { aspect-ratio: 4 / 3; } }
+@media (max-width: 767px) { .hero-art { display: none; } .hero { padding-block: var(--s-12) var(--s-12); } }
 @media (min-width: 900px) { .hero { padding-block: var(--s-24) var(--s-16); } .hero-grid { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--s-16); } }
 
 /* Proof strip */
